@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dialogue>
+ 
+  <Nodes>
+    
+
+    <DialogueNode>
+      <NodeID>0</NodeID>
+      <Text>Rook, how can this old and humble master crow help you?</Text>
+      
+      <Options>
+        <DialogueOption>
+          <Text>What’s this I hear about a garage needing destruction in awesome proportions? (Quest)</Text>
+          <DestinationNodeID>1</DestinationNodeID>
+        </DialogueOption>
+        <DialogueOption>
+          <Text>Hold that thought. (End Convo)</Text>
+          <DestinationNodeID>-1</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>1</NodeID>
+      <Text>It’s another assignment, and thanks for volunteering, rookie, tis’ appreciated.</Text>
+      
+      <Options>
+        <DialogueOption>
+          <Text>(Continue)</Text>
+          <DestinationNodeID>2</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>2</NodeID>
+      <Text>The Webbers have a warehouse in District 7’s western parts, and one of their lieutenants recently visited and logged into the building’s network. You need to take this infochip and plug it into their mainframe, so we can siphon information about the operations the lieutenant is involved with. Sneak in, steal the data, and ghost.</Text>
+      <!--Dialogue options-->
+      <Options>
+        <DialogueOption>
+          <Text>Sounds like a good time, I’m in. (Quest Start)</Text>
+          <DestinationNodeID>3</DestinationNodeID>
+        </DialogueOption>
+        <DialogueOption>
+          <Text>I’ll get to it in a bit. (End Convo)</Text>
+          <DestinationNodeID>-1</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>3</NodeID>
+      <Text>The gang’s will thank you with hard cash and promotional credit for this, rookie. Now, any questions before I send you off to do our bidding?</Text>
+      <!--Dialogue options-->
+      <Options>
+        <DialogueOption>
+          <Text>Who’s the lieutenant who’s browser history is about to be confiscated?</Text>
+          <DestinationNodeID>4</DestinationNodeID>
+        </DialogueOption>
+        <DialogueOption>
+          <Text>That’s all I needed to know. Let me get to it.</Text>
+          <DestinationNodeID>-1</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>4</NodeID>
+      <Text>It’s a scaly by the name of Slithers Twin-Tongue. Uncharacteristic of the Webbers to allow non-six-legged folks to join, but it’s no wonder they wouldn’t want him to join another gang, given the impressive problems he’s been causing for the Arctic Howl. It’s why I feel a tiny bit bad about doing this to him. But we need that data, rookie.</Text>
+      
+      <Options>
+        <DialogueOption>
+          <Text>Next question.</Text>
+          <DestinationNodeID>3</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+
+
+</Nodes>
+</Dialogue>
